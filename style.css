@@ -1,0 +1,89 @@
+/* Adapted from https://www.w3schools.com/howto/howto_css_style_header.asp */
+header {
+  background-color: rgb(150, 150, 150);
+  color: white;
+  margin: auto;
+  padding: 3px;
+  text-align: center;
+}
+
+/* Adapted from https://www.w3schools.com/css/css_link.asp */
+a:link {
+  color: white;
+}
+
+/* Adapted from https://www.w3schools.com/css/css_link.asp */
+a:visited {
+  color: white;
+}
+
+/* Adapted from https://wdexplorer.com/20-examples-beautiful-css-typography-design/ */
+h1 {
+  color: black;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+/* Adapted from https://wdexplorer.com/20-examples-beautiful-css-typography-design/ */
+.default {
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+/* Adapted from https://www.w3schools.com/css/css3_buttons.asp */
+.bigButtons {
+  color: white;
+  font-size: 16px;
+  background-color: #4caf50;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+}
+
+/* Adapted from https://www.w3schools.com/css/css3_buttons.asp */
+.buttons {
+  color: white;
+  font-size: 16px;
+  background-color: #0096c8;
+  border: none;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+/* Adapted from https://www.w3schools.com/howto/howto_css_style_header.asp */
+footer {
+  background-color: rgb(255, 156, 118);
+  color: white;
+  margin: auto;
+  padding: 3px;
+  text-align: center;
+}
+
+/* Adapted from https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list */
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+/* Adapted from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
+table {
+  font-size: 14px;
+  font-family: "Helvetica Neue", sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+  margin: auto;
+}
+
+/* Adapted from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 2px;
+}
